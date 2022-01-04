@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="analys sida">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Mina links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styling.css">
+  <link rel="stylesheet" href="hemsida.css">
+  <title>Analys</title>
+</head>
+
+<body>
+  <div class="container">
+      <!-- Nav-->
+    <nav>
+      <div class="w3-container">
+        <div class="w3-bar w3-black ">
+            <a href="Hem.html" class="w3-bar-item w3-button">Hem</a>
+            <a href="Klienttekniker.html" class="w3-bar-item w3-button w3-hide-small">Klienttekniker</a>
+            <a href="Projektmetodik.html" class="w3-bar-item w3-button w3-hide-small">Projektmetodik</a>
+            <a href="Internet.html" class="w3-bar-item w3-button w3-hide-small">Internet</a>
+            <a href="Tillgänglighet.html" class="w3-bar-item w3-button w3-hide-small">Tillgänglighet</a>
+            <a href="Analys.html" class="w3-bar-item w3-button w3-hide-small w3-green">Analys</a>
+            <a href="Kontakt.Html" class="w3-bar-item w3-button w3-hide-small">Kontakt</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+            <a href="Klienttekniker.html" class="w3-bar-item w3-button">Klienttekniker</a>
+            <a href="Projektmetodik.html" class="w3-bar-item w3-button">Projektmetodik</a>
+            <a href="Internet.html" class="w3-bar-item w3-button">Internet</a>
+            <a href="Tillgänglighet.html" class="w3-bar-item w3-button">Tillgänglighet</a>
+            <a href="Analys.html" class="w3-bar-item w3-button w3-green">Analys</a>
+            <a href="Kontakt.Html" class="w3-bar-item w3-button">Kontakt</a>
+        </div>
+      </div>
+    </nav>
+    <div class="w3-container center w3-cell-row">
+      <div style="width: 1000px" class="w3-container w3-white w3-cell w3-mobile">   
+        <h2>Analys</h2>
+        <h3>Egen Reflektion</h3>
+        <p class= "UnderRubTxt">
+          När kursen startade hade jag aldrig innan hållit på med CSS eller JavaScript.
+           Mina förväntningar på kursen va att kunna få en bredare koll på arbets teknikerna man använder ute i branschen, men även få en bredare koll på html & css.
+            Under kursens gång fick i uppgift att jobba med praktiska uppgifter på sidan W3School, en sida man i princip kan lära sig dom flesta stora programmeringsspråk från grunden.
+             W3School har för mig varit en viktig nyckel sida till att förstå grunderna till CSS, HTML och JavaScript.
+               Den här kursen slutade faktiskt med att överträffa mina förväntningar, då jag ökat mina kunskaper inom alla förväntningar plus JavaScript.
+        </p>
+        <br>
+        <h3>Tidshantering</h3>
+        <p class= "UnderRubTxt">
+          Under mitt arbete på projektet har mycket av tiden gått åt att försöka förstå hur man bör 
+          strukturera och utföra uppgiften. Därför har mycket av min tid gått åt på research på bl.a W3School & Youtube. 
+          Skelettet till min hemsida började jag jobba på några dagar efter att jag utfört dom praktiska delarna på W3School
+           och schemalagt mina uppgifter under nästkommande dagar på Azure DevOps.
+            Det tog även lite tid för mig att förstå hur Azure DevOps sidan fungera då jag tyckte att den va lite rörig i början.
+          Men när jag väl kom igång med DevOps var det lätt att få en överblick över vad som behövde göras på projektet, som ett slags schema för uppgiften.          
+        </p>
+        <br>
+        <h3>Tekniska beslut</h3>
+        <p class= "UnderRubTxt">
+          Jag tog beslutet att använda mig av CSS mallar från både W3School och bootstrap för att försöka lära mig så mycket som möjligt.
+          När jag jobbade med layouten var jag väldigt noga med att få hemsidan att vara responsiv på alla enheter utan någon sidled scroller.
+           Detta gjorde jag genom device dimension där du kan se hur sidan ser ut på olika enheter.
+          Jag valde att hålla mitt färgtema simpelt med svart, vit, grå och sedan grönt som markeringsfärg i navigerings baren.
+           Dock så använde jag fyra royaltyfria bilder från pixabay för att få sidan att se mer spännande ut.
+          I kontaktformuläret använde jag lite javascript som en alert-funktion där det poppar upp en alert som tar dig vidare till tack-sidan
+          
+          När jag var nöjd med layouten behövde jag checka sidans Accessibility och Performance, så då tog jag hjälp av Axe DevTools och Lighthouse för att validera sidorna.
+           Resultaten från valideringen fick mig att bland annat ändra en färg kontrast och lägga till meta descriptions på några sidor.
+          <br>
+          Under projektets gång använde jag även GitHub som lagring av projektet ifall något skulle gå snett med datorn eller något liknande.
+          
+        </p>
+        <br>
+        <h3>Överväganden om affärsvärden</h3>
+        <p class= "UnderRubTxt">
+          För att kunna bringa ett större affärsvärde har jag eftersträvat att följa diverse WCAG riktlinjer. Genom anpassningar för personer med funktionsnedsättningar blir hemsidan användbar till en större grupp människor vilket skapar ett affärsvärde.
+
+          Min färg användning på sidan följer WCAG contrast level vilket bidrar en mer användarvänlig upplevelse
+          
+          Jag har eftersträvat att få hemsidan så lätt navigerad som möjligt genom min simpla design med innehållsförteckning till varje del och sida.
+          Sidan har jag även fått att bli responsivt anpassad för alla enheter.         
+        </p>
+        <br>
+        <br>
+      </div>
+    </div>
+    <footer>
+      <br>
+      <br>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="navigation.js"></script>
+  </div>
+</body>
+</html>
